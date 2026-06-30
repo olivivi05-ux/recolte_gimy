@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fresh local produce, pantry goods, and seasonal favourites from Récolte Gimy.">
+  <title>Récolte Gimy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="announcement-bar"><p>Open every day · 9:00 AM–6:00 PM</p><p>306 Edwards St, Clarence-Rockland</p></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Récolte Gimy">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span>Récolte Gimy <small>Farmers Market</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">Our Market</a><a href="#produce">Our Products</a><a href="#owners">Our Story</a><a class="nav-pill" href="#visit">Plan Your Visit</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Local food, grown with care</p>
+        <h1>Fresh from our <em>fields to</em> your table.</h1>
+        <p class="hero-text">Discover seasonal produce, small-batch pantry goods, and friendly local growers—all gathered in one welcoming place.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#produce">See what's fresh <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#about">Meet the market <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/market.jpg" alt="Lorem ipsum dolor sit amet">
+        <div class="organic-stamp" aria-hidden="true"><span>Shop<br>locally</span><b>✦</b></div>
+      </div>
+    </section>
+
+    <section id="about" class="intro section-pad">
+      <p class="eyebrow centered"><span></span> Rooted in our community <span></span></p>
+      <h2>Good food tastes better when it is <em>grown close to home.</em></h2>
+      <p>Our market brings local farms, makers, and neighbours together. Shop at the pace of the seasons and take home food with a story.</p>
+      <div class="stats">
+        <div><strong>24+</strong><span>Local growers</span></div><div><strong>4</strong><span>Market days</span></div><div><strong>100%</strong><span>Community minded</span></div>
+      </div>
+    </section>
+
+    <section id="produce" class="produce section-pad">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span></span> Our products</p><h2>Fresh picks, <em>all in one place.</em></h2></div>
+        <div class="product-heading-actions"><p>Our tables change with the harvest. Explore our fresh vegetables, fruit, and local specialties.</p><button class="button button-outline" id="more-button" type="button">Show more <span aria-hidden="true">＋</span></button></div>
+      </div>
+      <div class="produce-grid">
+        <article class="produce-card large"><img src="assets/peppers.jpg" alt="Lorem ipsum dolor"><span class="image-label">Fresh peppers</span></article>
+        <article class="produce-card"><img src="assets/radishes.jpg" alt="Lorem ipsum dolor"><span class="image-label">Garden fresh</span></article>
+        <article class="produce-card"><img src="assets/asparagus.jpg" alt="Lorem ipsum dolor"><span class="image-label">Seasonal produce</span></article>
+        <article class="produce-card"><img src="assets/limes.jpg" alt="Lorem ipsum dolor"><span class="image-label">Bright and fresh</span></article>
+      </div>
+      <div class="gallery-grid product-gallery" id="gallery-grid">
+        <figure><img src="assets/onions.jpg" alt="Lorem ipsum"><span class="image-label">Market selection</span></figure>
+        <figure><img src="assets/strawberries-wide.jpg" alt="Lorem ipsum"><span class="image-label">Locally picked</span></figure>
+        <figure><img src="assets/ginger.jpg" alt="Lorem ipsum"><span class="image-label">Fresh roots</span></figure>
+        <figure class="gallery-placeholder"><span class="image-label">Coming soon</span></figure>
+        <figure class="gallery-placeholder extra"><span class="image-label">Coming soon</span></figure>
+        <figure class="gallery-placeholder extra"><span class="image-label">Coming soon</span></figure>
+      </div>
+    </section>
+
+    <section id="owners" class="owners section-pad">
+      <div class="owners-heading">
+        <p class="eyebrow centered"><span></span> About us <span></span></p>
+        <h2>Meet the people behind <em>Récolte Gimy.</em></h2>
+        <p>Récolte Gimy grew from a shared love of fresh food, honest work, and bringing neighbours together. We are proud to offer carefully selected produce and a friendly market experience rooted in our Clarence-Rockland community.</p>
+      </div>
+      <div class="owner-grid">
+        <article class="owner-card">
+          <div class="owner-photo" aria-label="Isabelle portrait placeholder"></div>
+          <div class="owner-copy">
+            <p class="eyebrow"><span></span> Co-owner</p>
+            <h3>Isabelle</h3>
+            <p>Isabelle brings warmth, creativity, and a keen eye for quality to every part of the market. She loves helping customers discover seasonal favourites and making each visit feel welcoming.</p>
+          </div>
+        </article>
+        <article class="owner-card">
+          <div class="owner-photo" aria-label="Stephane portrait placeholder"></div>
+          <div class="owner-copy">
+            <p class="eyebrow"><span></span> Co-owner</p>
+            <h3>Stephane</h3>
+            <p>Stephane is passionate about fresh produce, dependable service, and building lasting relationships with local growers and customers. He helps keep the market thriving throughout every season.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <p>“Come for the harvest, stay for the people, and leave with something delicious.”</p><span>— Récolte Gimy</span>
+    </section>
+
+    <section id="visit" class="visit section-pad">
+      <div class="visit-card">
+        <p class="eyebrow light"><span></span> Plan your visit</p>
+        <h2>Make market day<br><em>your new tradition.</em></h2>
+        <p>Bring a basket, meet the people who grow your food, and enjoy the best of the season. Parking and admission are free.</p>
+        <aside class="payment-notice" aria-label="Payment information">
+          <span class="payment-icon" aria-hidden="true">$</span>
+          <p><strong>Cash or debit only</strong><small>We do not accept credit cards at this time.</small></p>
+        </aside>
+        <a class="button button-light" href="#top">Back to top <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="visit-media"><img src="assets/squash.jpg" alt="Lorem ipsum dolor sit amet"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">✦</span><span>Récolte Gimy</span></a>
+        <p>Fresh food. Local hands. Strong community.</p>
+      </div>
+      <div class="footer-details">
+        <div>
+          <h3>Visit us</h3>
+          <address>306 Edwards St<br>Clarence-Rockland</address>
+        </div>
+        <div>
+          <h3>Market hours</h3>
+          <p>Open every day<br>9:00 AM–6:00 PM</p>
+        </div>
+        <div>
+          <h3>Follow along</h3>
+          <nav class="social-links" aria-label="Social media">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook <span aria-hidden="true">↗</span></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Récolte Gimy. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
